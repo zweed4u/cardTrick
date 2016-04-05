@@ -67,11 +67,11 @@ def dealDisplay(arg):
 
 def pickPile(arg,split):
 	global placeColumn
-	if arg=='L':
+	if arg=='L' or arg=='l':
 		placeColumn=split[0]
-	elif arg=='M':
+	elif arg=='M' or arg=='m':
 		placeColumn=split[1]
-	elif arg=='R':
+	elif arg=='R' or arg=='r':
 		placeColumn=split[2]
 	else:
 		print 'pick correct params'
